@@ -69,7 +69,7 @@ object Publish {
         </developer>
       </developers>
       ),
-
+    releaseCrossBuild := true,
     releaseProcess := Seq[ReleaseStep](
       checkSnapshotDependencies,
       inquireVersions,
